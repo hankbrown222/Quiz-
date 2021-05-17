@@ -18,7 +18,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-image:url(img/4d740888825ff6e44028919c3f2ebfc0.gif);
+  background-image:url(img/stars.gif);
   font-size:large;
   font-weight:bold;
 }
@@ -55,13 +55,15 @@ body.wrong {
   padding: 5px 10px;
   color: black;
   outline: none;
-  font-weight: 100;
+  font-weight: bold;
   font-size: large;
   border: 1px solid black;
 }
 
 .btn:hover {
-  border-color: black;
+  background: #7504B1;
+  transition: all 0.5s ease;
+
 }
 
 .btn.correct {
@@ -78,7 +80,7 @@ body.wrong {
   font-weight: bold;
   padding: 10px 20px;
   color:white;
-
+  margin-left: 40%;
 }
 
 .controls {
