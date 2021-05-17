@@ -57,7 +57,7 @@ function selectAnswer(e) {
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
   } else {
-    startButton.innerText = 'Restart'
+    startButton.innerText = 'RESTART'
     startButton.classList.remove('hide')
   }
 }
@@ -78,44 +78,71 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'Is Chase Bad At Fortnite?',
+    question: 'What is the Second Tallest Building In the World?',
     answers: [
-      { text: 'Yes', correct: true },
-      { text: 'Nope', correct: false }
+      { text: 'Shanghai Tower', correct: true },
+      { text: 'Burj Khalifa', correct: false },
+      { text: 'The Indpendent', correct: false },
+      { text: 'Salesforce Tower', correct: false }
     ]
   },
   {
-    question: 'Who Cranks Like PeaceControlKyle?',
+    question: 'What is the oldest song from these choices?',
     answers: [
-      { text: 'Hank', correct: true },
-      { text: 'Ares', correct: false },
-      { text: 'Drew', correct: false },
-      { text: 'Jouse', correct: false }
+      { text: 'You Shook Me All Night Long', correct: true },
+      { text: 'Wake Me Up Before You Go-Go', correct: false },
+      { text: 'Billie Jean', correct: false },
+      { text: 'Take On Me', correct: false }
     ]
   },
   {
     question: 'Is This Quiz Well Made?',
     answers: [
-      { text: 'Its The Best Online Quiz', correct: true },
-      { text: 'Well Made', correct: true },
-      { text: 'Its Doggy', correct: false },
-      { text: 'Its Alright', correct: false }
+      { text: 'Yes', correct: true },
+      { text: 'No', correct: false }
     ]
   },
   {
-    question: 'What Does Chase Order at Mc Donalds?',
+    question: 'What is the solution to the equation 2(x - 3) = 4x - 1?',
     answers: [
-      { text: 'Travy Patty', correct: true},
-      { text: 'Big Mac', correct: false },
-      { text: 'A huge cumshot to the forehead', correct: true},
-      { text: 'Nothing he doesnt go outside', correct: true}
+      { text: '-5/2', correct: true},
+      { text: '-2.5', correct: true },
+      { text: '2', correct: false},
+      { text: '-1', correct: false}
     ]
   },
   {
-    question: 'Should I Add More Quesions?',
+    question: 'Which One Of These is NOT a Dealthy Hallow in Harry Potter?',
     answers: [
-      { text: 'Yes', correct: false },
-      { text: 'No', correct : true }
+      { text: 'Wand of Destiny', correct: false },
+      { text: 'The Ressurrection Stone', correct: false },
+      { text: 'Rowena Ravenclaws Tenebrific Diadem', correct : true },
+      { text: 'The Cloak Of Invisibility', correct : false }
+    ]
+  },
+  {
+    question: 'What is the Discord Bot I Made?',
+    answers: [
+      { text: 'MEE6', correct: false },
+      { text: 'Rhythm', correct: false },
+      { text: 'Xenon', correct: false },
+      { text: 'BakaBot', correct: true }
+    ]
+  },
+  {
+    question: 'Is Mr.Bordes A Good Computer Tech Teacher?',
+    answers: [
+      { text: 'Yes', correct: true },
+      { text: 'No', correct: false },
+    ]
+  },
+  {
+    question: 'Which of these is NOT the Elvish language In Middle Earth (Lord Of the Rings World)?',
+    answers: [
+      { text: 'Taliska', correct: true },
+      { text: 'Telerin', correct: false },
+      { text: 'Sindarin', correct: false },
+      { text: 'Khuzdul', correct: false }
     ]
   }
 ]
